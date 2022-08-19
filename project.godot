@@ -1,0 +1,106 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "AwaitTaskUnitBase",
+"class": "AwaitAllTaskUnit",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/AwaitAllTaskUnit.gd"
+}, {
+"base": "AwaitTaskUnitBase",
+"class": "AwaitAnyTaskUnit",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/AwaitAnyTaskUnit.gd"
+}, {
+"base": "TaskUnitBase",
+"class": "AwaitTaskUnitBase",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/AwaitTaskUnitBase.gd"
+}, {
+"base": "Reference",
+"class": "CancellationToken",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/CancellationToken.gd"
+}, {
+"base": "CancellationTokenSourceBase",
+"class": "CancellationTokenSource",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/CancellationTokenSource.gd"
+}, {
+"base": "Reference",
+"class": "CancellationTokenSourceBase",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/CancellationTokenSourceBase.gd"
+}, {
+"base": "TaskUnitBase",
+"class": "DeferTaskUnit",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/DeferTaskUnit.gd"
+}, {
+"base": "TaskUnit",
+"class": "EmptyTaskUnit",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/EmptyTaskUnit.gd"
+}, {
+"base": "Reference",
+"class": "TaskUnit",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/TaskUnit.gd"
+}, {
+"base": "TaskUnit",
+"class": "TaskUnitBase",
+"language": "GDScript",
+"path": "res://addons/godot-async-helper/TaskUnitBase.gd"
+} ]
+_global_script_class_icons={
+"AwaitAllTaskUnit": "",
+"AwaitAnyTaskUnit": "",
+"AwaitTaskUnitBase": "",
+"CancellationToken": "",
+"CancellationTokenSource": "",
+"CancellationTokenSourceBase": "",
+"DeferTaskUnit": "",
+"EmptyTaskUnit": "",
+"TaskUnit": "",
+"TaskUnitBase": ""
+}
+
+[application]
+
+config/name="godot-async-helper"
+config/description="Pseudo async scripting helpers for Godot 3."
+run/main_scene="res://scenes/Demo.tscn"
+
+[autoload]
+
+TaskTimer="*res://addons/godot-async-helper/TaskTimer.gd"
+Task="*res://addons/godot-async-helper/Task.gd"
+
+[display]
+
+window/size/width=600
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/godot-async-helper/plugin.cfg" )
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
