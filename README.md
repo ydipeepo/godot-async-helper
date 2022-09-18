@@ -1,3 +1,5 @@
+Now we are working on/for Godot 4 version async addon ≫ [ydipeepo/godot-async](https://github.com/ydipeepo/godot-async)
+
 # Pseudo-async scripting helper for Godot 3
 
 Godot 3.* で非同期っぽくスクリプトを書くためのアドオンです。
