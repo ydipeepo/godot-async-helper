@@ -1,4 +1,4 @@
-Now we are working on/for Godot 4 version async addon ≫ [ydipeepo/godot-async](https://github.com/ydipeepo/godot-async)
+Now we are working on/for Godot 4 version async addon ≫ [ydipeepo/godot-nesink](https://github.com/ydipeepo/godot-nesink)
 
 # Pseudo-async scripting helper for Godot 3
 
