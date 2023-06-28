@@ -1,4 +1,10 @@
-Now we are working on/for Godot 4 (GDScript 2) version async addon ≫ [ydipeepo/godot-nesink](https://github.com/ydipeepo/godot-nesink)
+<br />
+
+<strong>IDK it still works now or not, but feel free to use it if you need. For Godot 4, that is maintained at [folt-a/godot-nesink](https://github.com/folt-a/godot-nesink).</strong>
+
+<strong>Godot 4 版は [folt-a/godot-nesink](https://github.com/folt-a/godot-nesink) で Folta さんが管理、継続してくださってます。</strong>
+
+<hr />
 
 <br />
 <br />
