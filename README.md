@@ -1,10 +1,14 @@
 <br />
 
-<strong>IDK it still works now or not, but feel free to use it if you need. For Godot 4, that is maintained at [folt-a/godot-nesink](https://github.com/folt-a/godot-nesink).</strong>
+> [!IMPORTANT]
+> このリポジトリはメンテナンスしていません。<br />
+> Godot 4.0 以降であれば以下で代替え可能です:
+> 
+> * [folt-a/godot-nesink](https://github.com/folt-a/godot-nesink)
+> * [xdut-task](https://github.com/ydipeepo/xdut-task)
+> * [xdut-wait](https://github.com/ydipeepo/xdut-wait)
 
-<strong>Godot 4 版は [folt-a/godot-nesink](https://github.com/folt-a/godot-nesink) で Folta さんが管理、継続してくださってます。</strong>
-
-<hr />
+---
 
 <br />
 <br />
